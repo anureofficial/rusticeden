@@ -1,5 +1,6 @@
  .u-section-1 {
-  background-image: url("CasutaBunicii1-59.png");
+  background-image: url("CasutaBunicii1.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -13,10 +14,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 2.25rem;
   }
@@ -29,7 +26,7 @@
 }
 
 .u-section-2 .u-gallery-1 {
-  height: 3063px;
+  height: 3503px;
   margin-top: 100px;
   margin-bottom: 60px;
   grid-gap: 17px;
@@ -224,7 +221,62 @@
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
 }
 
+.u-section-2 .u-back-slide-21 {
+  background-image: none;
+}
+
 .u-section-2 .u-over-slide-21 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-22 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+.u-section-2 .embed-responsive-1 {
+  position: absolute;
+  width: 204%;
+  left: -52%;
+  height: 100%;
+  top: 0%;
+}
+
+.u-section-2 .u-over-slide-22 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-23 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+.u-section-2 .embed-responsive-2 {
+  position: absolute;
+  width: 204%;
+  left: -52%;
+  height: 100%;
+  top: 0%;
+}
+
+.u-section-2 .u-over-slide-23 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-2 .u-gallery-item-24 {
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+}
+
+.u-section-2 .embed-responsive-3 {
+  position: absolute;
+  width: 204%;
+  left: -52%;
+  height: 100%;
+  top: 0%;
+}
+
+.u-section-2 .u-over-slide-24 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
   padding: 20px;
 }
@@ -235,7 +287,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 2526px;
+    height: 2888px;
   }
 }
 
@@ -245,7 +297,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 4561px;
+    height: 4977px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -259,7 +311,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 13061px;
+    height: 14931px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -273,7 +325,7 @@
   }
 
   .u-section-2 .u-gallery-1 {
-    height: 8224px;
+    height: 9401px;
   }
 }.div1{
 padding-right: 30px;
