@@ -361,6 +361,9 @@ span.fr-img-caption.fr-view {
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
 /*end-commonstyles library*/@charset "UTF-8";
+.u-hidden-block {
+  visibility: hidden!important;
+}
 .u-locked-block {
   pointer-events: none!important;
 }
@@ -1890,7 +1893,7 @@ a {
   width: 100%;
   text-align: center;
   color: #fff;
-  padding: 20px 0px 20px 0px;
+  padding: 20px;
   border: none;
 }
 .u-form .u-form-group.u-form-checkbox,
@@ -1924,6 +1927,12 @@ a {
 .u-form .u-form-vertical .u-form-group.u-form-checkbox,
 .u-form .u-form-vertical .u-form-group.u-form-agree {
   align-items: baseline;
+}
+.u-form .u-form-send-message-close {
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 0;
 }
 .u-form-send-message {
   z-index: 1;
@@ -38497,13 +38506,13 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 .u-footer .u-sheet-1 {
-  min-height: 410px;
+  min-height: 449px;
 }
 
 .u-footer .u-image-1 {
   width: 361px;
   height: 82px;
-  margin: 129px auto 0;
+  margin: 97px auto 0;
 }
 
 .u-footer .u-logo-image-1 {
@@ -38511,76 +38520,196 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+.u-footer .u-icon-1 {
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.u-footer .u-icon-2 {
+  width: 36px;
+  height: 36px;
+  margin: -36px auto 0 507px;
+  padding: 0;
+}
+
+.u-footer .u-icon-3 {
+  width: 36px;
+  height: 36px;
+  margin: -36px auto 0 597px;
+  padding: 0;
+}
+
 .u-footer .u-social-icons-1 {
   height: 36px;
   min-height: 16px;
   width: 127px;
   min-width: 68px;
-  margin: 11px auto 0;
+  margin: 51px auto 0;
 }
 
-.u-footer .u-icon-1 {
+.u-footer .u-icon-4 {
   height: 100%;
 }
 
-.u-footer .u-icon-2 {
+.u-footer .u-icon-5 {
   height: 100%;
 }
 
-.u-footer .u-icon-3 {
+.u-footer .u-icon-6 {
   height: 100%;
 }
 
 .u-footer .u-text-1 {
   font-size: 1.25rem;
   width: 631px;
-  margin: 82px auto 0;
+  margin: 65px auto 0;
+}
+
+.u-footer .u-text-2 {
+  font-size: 1rem;
+  margin: 0 0 18px;
+}
+
+.u-footer .u-btn-1 {
+  background-image: none;
+  font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 433px;
+  }
+
   .u-footer .u-image-1 {
     width: 361px;
+    margin-top: 108px;
+  }
+
+  .u-footer .u-icon-1 {
+    width: 36px;
+  }
+
+  .u-footer .u-icon-2 {
+    width: 36px;
+    margin-top: -36px;
+    margin-left: 407px;
+  }
+
+  .u-footer .u-icon-3 {
+    width: 36px;
+    margin-top: -36px;
+    margin-left: 497px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 32px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 76px;
+  }
+
+  .u-footer .u-text-2 {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 410px;
+  }
+
+  .u-footer .u-image-1 {
+    margin-top: 102px;
+  }
+
+  .u-footer .u-icon-2 {
+    margin-left: 297px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-left: 387px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: 21px;
+  }
+
   .u-footer .u-text-1 {
+    width: auto;
+    margin-top: 70px;
     margin-left: 45px;
     margin-right: 45px;
   }
 }
 @media (max-width: 767px) {
+  .u-footer .u-sheet-1 {
+    min-height: 460px;
+  }
+
   .u-footer .u-image-1 {
-    margin-top: 134px;
+    margin-top: 128px;
+  }
+
+  .u-footer .u-icon-2 {
+    margin-left: 207px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-left: 297px;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 6px;
+    margin-top: 29px;
   }
 
   .u-footer .u-text-1 {
-    width: 540px;
-    margin: 145px 0 16px;
+    margin-top: 52px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-footer .u-text-2 {
+    margin: 6px 0 27px;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 482px;
+    min-height: 617px;
   }
 
   .u-footer .u-image-1 {
     width: 291px;
     height: 66px;
-    margin-top: 148px;
+    margin-top: 213px;
+  }
+
+  .u-footer .u-icon-2 {
+    margin-left: 107px;
+  }
+
+  .u-footer .u-icon-3 {
+    margin-left: 197px;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: 8px;
+    margin-top: 40px;
   }
 
   .u-footer .u-text-1 {
-    width: auto;
     font-size: 1rem;
-    margin-top: 173px;
-    margin-bottom: 25px;
+    margin-top: 130px;
+  }
+
+  .u-footer .u-text-2 {
+    margin-bottom: 39px;
+  }
+
+  .u-footer .u-btn-1 {
+    font-size: 1rem;
+    padding: 0;
   }
 }
 
