@@ -313,7 +313,7 @@
 
 .u-section-3 .u-image-1 {
   height: 740px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -327,7 +327,7 @@
 .u-section-3 .u-group-1 {
   width: 462px;
   min-height: 684px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
@@ -465,7 +465,7 @@
 .u-section-4 .u-image-1 {
   height: 699px;
   width: 1031px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -478,7 +478,7 @@
 .u-section-4 .u-group-1 {
   width: 462px;
   min-height: 657px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
@@ -619,7 +619,7 @@
 
 .u-section-5 .u-image-1 {
   height: 740px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -633,7 +633,7 @@
 .u-section-5 .u-group-1 {
   width: 462px;
   min-height: 684px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
@@ -760,7 +760,7 @@
 .u-section-6 .u-image-1 {
   height: 699px;
   width: 1049px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -773,7 +773,7 @@
 .u-section-6 .u-group-1 {
   width: 462px;
   min-height: 657px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
@@ -911,7 +911,7 @@
 
 .u-section-7 .u-image-1 {
   height: 740px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -925,7 +925,7 @@
 .u-section-7 .u-group-1 {
   width: 462px;
   min-height: 684px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
@@ -1045,7 +1045,7 @@
 .u-section-8 .u-image-1 {
   height: 793px;
   width: 1049px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -1058,7 +1058,7 @@
 .u-section-8 .u-group-1 {
   width: 462px;
   min-height: 758px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
@@ -1190,7 +1190,7 @@
 
 .u-section-9 .u-image-1 {
   height: 653px;
-  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
@@ -1204,7 +1204,7 @@
 .u-section-9 .u-group-1 {
   width: 462px;
   min-height: 584px;
-  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
   --animation-custom_in-opacity: 0;
